@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    margin: 0;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #fff;
+    background: #333;
+    background-image: linear-gradient( rgba(174, 203, 216, 0.377),rgba(99, 146, 207, 0.589)),url('https://images.pexels.com/photos/269887/pexels-photo-269887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+  }
+  
+
+  .landing-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .landing h1 {
+    font-size: 50px;
+  }
+  
+  .landing p {
+    font-size: 20px;
+  }
+  
+  .countdown {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: #fff;
+    opacity:1.0;
+  }
+  
+  .countdown div {
+    padding: 10px 0;
+    border: 1px #fff solid;
+    border-radius: 10px 10px 20px 100px;
+    background: #000;
+    opacity: 0.9;
+    text-align: center;
+    /*margin: 1px;*/
+  }
+  /*
+  .countdown div {
+    background: #17a2b8;
+  }*/
+  
+  .countdown span {
+    display: block;
+    font-size: 25px;
+  }
+  
