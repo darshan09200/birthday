@@ -34,6 +34,6 @@ const intvl = setInterval(() => {
     clearInterval(intvl);
     // Style and output text
     countdown.style.color = '#17a2b8';
-    countdown.innerHTML = '<br><br><div class="col-sm-12">Launched!</div>';
+    countdown.innerHTML = '<br><br><div class="col-sm-12">HAPPY BIRTHDAY MISS PRIYAL KHUMAN!</div>';
   }
 }, 1000);
