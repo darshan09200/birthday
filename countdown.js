@@ -1,7 +1,7 @@
 
 
 // Set Launch Date (ms)
-const launchDate = new Date('oct 09, 2018 00:00:00').getTime();
+const launchDate = new Date('oct 08, 2018 00:00:00').getTime();
 
 // Update every second
 const intvl = setInterval(() => {
