@@ -1,6 +1,3 @@
-body{
-    position: fixed;
-}
 
 .right .content .row .progress {
     transform: rotate(180deg);
