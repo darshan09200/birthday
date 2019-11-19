@@ -17,7 +17,8 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="75" id="home">
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" style="padding: 1rem 2rem;">
+    <div class="preloaders"></div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -750,7 +751,7 @@
             </div>
             <div class="row mt-4 mb-4">
                 <div class="offset-md-1 col-md-5 text-center d-none d-sm-none d-md-block d-lg-block d-xl-block">
-                    <img src="./images/mail.png" alt="">
+                    <img class="img-fluid" src="./images/contact_us.svg" alt="">
                 </div>
                 <div class="col-md-4">
                     <div class="contact-form" data-aos="fade-up">
@@ -800,6 +801,7 @@
         });
 
         $(document).ready(function() {
+            $('body').addClass('overflow-hidden')
             $('#send-msg').click(function() {
                 var name = $('#name').val()
                 var subject = $('#subject').val()
@@ -816,8 +818,13 @@
                         $('#snackbar').removeClass("show")
                     }, 3000)
                 }
-            })
-        })
+            });
+        });
+
+        $(window).on('load', function() {
+            $('body').removeClass('overflow-hidden')
+            $('.preloaders').fadeOut('slow');
+        });
 
         $(document).on('click', 'a[href^="#"]', function(event) {
             event.preventDefault();
