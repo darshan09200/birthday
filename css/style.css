@@ -144,8 +144,6 @@ body {
 .bg,
 .bg-container {
     position: relative;
-    width: 100%;
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,6 +151,8 @@ body {
 }
 
 .bg {
+    width: 100%;
+    height: 100%;
     opacity: 0.75;
     background-image: url("../images/background/bg-4.png");
 }
