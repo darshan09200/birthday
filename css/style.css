@@ -1,3 +1,19 @@
+@import url("/add-ons/google fonts/Kaushan_Script.css");
+@import url("/add-ons/google fonts/Amaranth.css");
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    /*font-family: 'Kaushan Script', cursive;*/
+    font-family: 'Amaranth', sans-serif;
+}
 
 .right .content .row .progress {
     transform: rotate(180deg);
@@ -98,18 +114,29 @@
 }
 
 .landing-content {
-    color: white;
-    position: relative;
-    top: 50%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, 0%);
 }
 
+.landing-content p {
+    background-color: rgba(47, 47, 47, 0.75);
+}
+
 .bg {
+    position: relative;
     width: 100%;
-    background-color: #646478;
-    height: 100vh;
+    height: 100%;
+    opacity: 0.8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("../images/background/3.png");
+    background-attachment: fixed;
+}
+
+button.navbar-toggler {
+    border: none;
 }
