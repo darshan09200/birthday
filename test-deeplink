@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<body onload="onPageLoad()">
+		<h1>Nifty Media Art</h1>
+		<script>
+			const onPageLoad = () => {
+				const urlSearchParams = new URLSearchParams(window.location.search);
+				window.location.href = "niftymedia://social/instagram?" + urlSearchParams.toString();
+			};
+		</script>
+	</body>
+</html>
