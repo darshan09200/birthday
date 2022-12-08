@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "J2U7BRP3N9,com.niftymedia.app.niftymedia",
+            "paths": ["*"]
+            }
+        ]
+    }
+}
